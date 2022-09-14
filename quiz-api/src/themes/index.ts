@@ -2,8 +2,13 @@ import { extendTheme } from '@chakra-ui/react';
 
 const colors = {
   brand: {
-    black: '#000',
+    primary: '#25274d',
+    secondary: '#464866',
+    terciary: '#2e9cca',
+    quaternary: '#29648a',
+    neutral: '#aaabb8',
     white: '#fff',
+    black: '#0A0025',
   },
 };
 
