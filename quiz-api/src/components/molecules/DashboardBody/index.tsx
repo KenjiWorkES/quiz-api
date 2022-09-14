@@ -10,7 +10,7 @@ const DashboardBody: React.FC = () => {
       justifyContent="center"
       textAlign={['center', 'left']}
     >
-      <Box w={['100%', '50%']} p={['10', '0']}>
+      <Box w={['100%', '50%']} maxW={['700px', 'none']} p={['10', '0']}>
         <Heading as="h3" mb="10">
           Change Password
         </Heading>
