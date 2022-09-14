@@ -10,6 +10,7 @@ const DashboardHeader: React.FC = () => {
       alignItems="center"
       w="100vw"
       position="relative"
+      marginBottom="300"
     >
       <Box bg="purple" w="100%" h="300px"></Box>
       <Box
