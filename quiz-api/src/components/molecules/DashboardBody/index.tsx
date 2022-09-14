@@ -1,6 +1,6 @@
 import React from 'react';
 
-const DashboardBody = () => {
+const DashboardBody: React.FC = () => {
   return <div>DashboardBody</div>;
 };
 

@@ -1,7 +1,13 @@
 import React from 'react';
+import { DashboardHeader } from '@/components/molecules';
+import { Container } from '@chakra-ui/react';
 
-const DashboardContext = () => {
-  return <div>DashboardContext</div>;
+const DashboardContext: React.FC = () => {
+  return (
+    <Container>
+      <DashboardHeader />
+    </Container>
+  );
 };
 
 export default DashboardContext;

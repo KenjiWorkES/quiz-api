@@ -1,7 +1,7 @@
 import React from 'react';
 import { Image } from '@chakra-ui/react';
 
-const DashboardImage = () => {
+const DashboardImage: React.FC = () => {
   return (
     <Image
       alt="Perfil Image"
