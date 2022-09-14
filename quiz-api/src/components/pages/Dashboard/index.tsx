@@ -1,7 +1,8 @@
 import React from 'react';
+import { DashboardContent } from '@/components/organisms';
 
 const Dashboard: React.FC = () => {
-  return <div>Dashboard</div>;
+  return <DashboardContent />;
 };
 
 export default Dashboard;

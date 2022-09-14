@@ -6,9 +6,7 @@ import { Dashboard } from './components/pages';
 const App: React.FC = () => {
   return (
     <ChakraProvider theme={defaultTheme}>
-      <Box bg="brand.black" color="brand.white">
-        <Dashboard />
-      </Box>
+      <Dashboard />
     </ChakraProvider>
   );
 };

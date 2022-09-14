@@ -1,8 +1,17 @@
 import React from 'react';
-import { Heading } from '@chakra-ui/react';
+import { Box, Heading } from '@chakra-ui/react';
 
 const DashboardTitle: React.FC = () => {
-  return <Heading as="h1">Hello, Lucas</Heading>;
+  return (
+    <Box marginLeft="10" marginTop="10">
+      <Heading as="h1" size="4xl">
+        Hello, Lucas
+      </Heading>
+      <Heading marginTop="5" as="h2" size="md" color="gray" fontWeight="normal">
+        lucas.kenji@valtech.com
+      </Heading>
+    </Box>
+  );
 };
 
 export default DashboardTitle;

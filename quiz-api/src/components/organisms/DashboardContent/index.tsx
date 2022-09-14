@@ -4,7 +4,7 @@ import { Container } from '@chakra-ui/react';
 
 const DashboardContext: React.FC = () => {
   return (
-    <Container>
+    <Container w="100%" centerContent>
       <DashboardHeader />
     </Container>
   );
