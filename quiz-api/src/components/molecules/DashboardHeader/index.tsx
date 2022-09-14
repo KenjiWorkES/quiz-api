@@ -10,12 +10,13 @@ const DashboardHeader: React.FC = () => {
       alignItems="center"
       w="100vw"
       position="relative"
-      marginBottom="300"
+      marginBottom={['250', '300']}
     >
       <Box bg="purple" w="100%" h="300px"></Box>
       <Box
         display="flex"
-        w="50%"
+        w={['100%', '50%']}
+        flexDirection={['column', 'row']}
         justifyContent="flex-start"
         alignItems="center"
         position="absolute"
