@@ -1,11 +1,11 @@
-import { extendTheme } from '@chakra-ui/react';
+import { ComponentStyleConfig, extendTheme } from '@chakra-ui/react';
 
 const colors = {
-  brand: {
+  default: {
     primary: '#25274d',
     secondary: '#464866',
     terciary: '#2e9cca',
-    quaternary: '#29648a',
+    accent: '#29648a',
     neutral: '#aaabb8',
     white: '#fff',
     black: '#0A0025',
@@ -20,4 +20,22 @@ const breakpoints = {
   '2xl': '1400px',
 };
 
-export const defaultTheme = extendTheme({ colors, breakpoints });
+const Button: ComponentStyleConfig = {
+  variants: {
+    solid: {
+      color: colors.default.white,
+      bg: colors.default.primary,
+      _hover: {
+        bg: colors.default.black,
+      },
+    },
+  },
+};
+
+export const defaultTheme = extendTheme({
+  colors,
+  breakpoints,
+  components: {
+    Button,
+  },
+});

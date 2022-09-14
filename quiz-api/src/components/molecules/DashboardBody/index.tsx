@@ -1,6 +1,7 @@
 import React from 'react';
 import { DashboardForm } from '@/components/atoms';
 import { Box, Heading } from '@chakra-ui/react';
+import { defaultTheme } from '@/themes';
 
 const DashboardBody: React.FC = () => {
   return (
@@ -10,7 +11,12 @@ const DashboardBody: React.FC = () => {
       justifyContent="center"
       textAlign={['center', 'left']}
     >
-      <Box w={['100%', '50%']} maxW={['700px', 'none']} p={['10', '0']}>
+      <Box
+        w={['100%', '50%']}
+        maxW={['700px', 'none']}
+        p={['10', '0']}
+        color={defaultTheme.colors.default.black}
+      >
         <Heading as="h3" mb="10">
           Change Password
         </Heading>

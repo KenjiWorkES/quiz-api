@@ -1,6 +1,7 @@
 import React from 'react';
 import { DashboardImage, DashboardTitle } from '@/components/atoms';
 import { Box } from '@chakra-ui/react';
+import { defaultTheme } from '@/themes';
 
 const DashboardHeader: React.FC = () => {
   return (
@@ -12,7 +13,7 @@ const DashboardHeader: React.FC = () => {
       position="relative"
       marginBottom={['250', '300']}
     >
-      <Box bg="purple" w="100%" h="300px"></Box>
+      <Box bg={defaultTheme.colors.default.primary} w="100%" h="300px"></Box>
       <Box
         display="flex"
         w={['100%', '50%']}
