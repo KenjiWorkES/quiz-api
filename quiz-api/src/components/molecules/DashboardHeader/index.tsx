@@ -21,6 +21,7 @@ const DashboardHeader: React.FC = () => {
         alignItems="center"
         position="absolute"
         top="160"
+        textAlign={['center', 'left']}
       >
         <DashboardImage />
         <DashboardTitle />
